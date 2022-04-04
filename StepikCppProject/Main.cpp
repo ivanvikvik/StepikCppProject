@@ -29,7 +29,7 @@ int main(void) {
 
 	cin >> x1 >> y1 >> x2 >> y2;
 
-	bool result = true;
+	bool result = (x1 - y1 == x2 - y2) || (x1 + y1 == x2 + y2);
 
 	cout << (result ? "YES" : "NO");
 
